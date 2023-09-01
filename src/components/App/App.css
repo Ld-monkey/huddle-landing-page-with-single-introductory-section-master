@@ -1,0 +1,19 @@
+section {
+  padding: 9% 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 80vw;
+}
+
+@media screen and (min-width: 376px) {
+  section {
+    padding: 3.7% 0;
+  }
+
+  .wrapper {
+    width: 90vw;
+  }
+}

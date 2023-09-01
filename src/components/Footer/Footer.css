@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin-top: 4rem;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 0.7rem;
+}
+
+li a {
+  border: 1px solid white;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  padding: 4px;
+  color: #FFFFFF;
+}
+
+li a:hover {
+  border-color: #FF52C1;
+  color: #FF52C1;
+}
+
+@media screen and (min-width: 376px) {
+  footer {
+    justify-content: flex-end;
+  }
+
+  li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 10px;
+  }
+}
