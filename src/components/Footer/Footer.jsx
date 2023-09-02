@@ -6,17 +6,17 @@ function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="#">
+          <a href="https://www.facebook.com/" aria-label="Link to Facebook">
             <Icons icon="social-facebook" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://twitter.com/" aria-label="Link to Twitter">
             <Icons icon="twitter" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://www.instagram.com/" aria-label="Link to instagram">
             <Icons icon="instagram" />
           </a>
         </li>
