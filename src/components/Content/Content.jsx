@@ -3,7 +3,7 @@ import './Content.css';
 
 function Content() {
   return (
-    <main className="content-wrapper" role="main">
+    <main role="main">
       <img src={illustrationMockups} alt="Illustration with mobile and dektop view" />
       <div className="content">
         <h1>Build The Community Your Fans Will Love</h1>

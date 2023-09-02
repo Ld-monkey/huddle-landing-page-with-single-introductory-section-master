@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li>
           <a href="https://www.facebook.com/" aria-label="Link to Facebook">

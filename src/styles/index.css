@@ -42,7 +42,8 @@ body {
   color: #FFFFFF;
   background-image: url('../assets/images/bg-mobile.svg');
   background-repeat: no-repeat;
-
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {

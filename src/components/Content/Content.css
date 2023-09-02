@@ -1,12 +1,11 @@
-.content-wrapper {
+main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 60px;
   gap: 60px;
 }
 
-.content-wrapper img {
+main img {
   max-width: 100%;
   width: 709px;
 }
@@ -47,7 +46,7 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-  .content-wrapper {
+  main {
     flex-direction: row;
     margin-top: 85px;
     gap: 90px;

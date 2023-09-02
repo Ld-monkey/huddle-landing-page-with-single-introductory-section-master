@@ -5,13 +5,17 @@ import Footer from '../Footer/Footer';
 
 function App() {
   return (
-    <section>
+    <>
+      <section>
+        <div className="wrapper">
+          <Header />
+          <Content />
+        </div>
+      </section>
       <div className="wrapper">
-        <Header />
-        <Content />
         <Footer />
       </div>
-    </section>
+    </>
   );
 }
 
