@@ -1,4 +1,4 @@
-section {
+main {
   padding-top: 9%;
 }
 
@@ -9,7 +9,7 @@ section {
 }
 
 @media screen and (min-width: 376px) {
-  section {
+  main {
     padding-top: 3.7%;
   }
 

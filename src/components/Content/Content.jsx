@@ -3,7 +3,7 @@ import './Content.css';
 
 function Content() {
   return (
-    <main role="main">
+    <section>
       <img src={illustrationMockups} alt="Illustration with mobile and dektop view" />
       <div className="content">
         <h1>Build The Community Your Fans Will Love</h1>
@@ -13,7 +13,7 @@ function Content() {
         </p>
         <button type="button">Register</button>
       </div>
-    </main>
+    </section>
   );
 }
 

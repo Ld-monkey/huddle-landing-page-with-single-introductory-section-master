@@ -1,11 +1,11 @@
-main {
+section {
   display: flex;
   flex-direction: column;
   margin-top: 3.75rem;
   gap: 3.75rem;
 }
 
-main img {
+section img {
   max-width: 100%;
   width: 709px;
 }
@@ -46,7 +46,7 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-  main {
+  section {
     flex-direction: row;
     margin-top: 5.313rem;
     gap: 5.625rem;
