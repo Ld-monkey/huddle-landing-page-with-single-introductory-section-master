@@ -1,11 +1,11 @@
 header img {
-  width: 130px;
+  width: 8.125rem;
 }
 
 @media screen and (min-width: 376px) {
   header img {
     max-width: 17%;
-    min-width: 130px;
-    width: 220px;
+    min-width: 8.125rem;
+    width: 13.75rem;
   }
 }

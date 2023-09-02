@@ -1,8 +1,8 @@
 main {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  gap: 60px;
+  margin-top: 3.75rem;
+  gap: 3.75rem;
 }
 
 main img {
@@ -11,7 +11,7 @@ main img {
 }
 
 .content {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,8 +48,8 @@ p {
 @media screen and (min-width: 1200px) {
   main {
     flex-direction: row;
-    margin-top: 85px;
-    gap: 90px;
+    margin-top: 5.313rem;
+    gap: 5.625rem;
   }
 
   .content {
